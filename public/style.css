@@ -1,0 +1,152 @@
+.inputcontrolText {
+	width:100%;
+	height: 24px;
+	border:1px solid #a9d5d5;
+	outline: none;
+	font-size: 12px;
+}
+
+.inputbtn{
+	background-color: #2ACDC9;
+}
+
+.AddBtn{
+	background: #F00;
+	color: #FFF;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+}
+
+ul.stepy-titles {
+    margin: 0;
+    padding: 0;
+}
+.stepy-titles {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+    height: 40px;
+}
+
+.stepy-titles li:first-child {
+    margin-left: 0;
+}
+.stepy-titles .current-step {
+    cursor: auto;
+    background: #629976;
+    padding: 7px 20px;
+    color: #fff;
+}
+.stepy-titles li {
+    cursor: pointer;
+    float: left;
+    padding: 7px 20px;
+    background: #f0f0f0;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    position: relative;
+    font-size: 16px;
+}
+
+.stepy-titles li span {
+    font-size: 11px;
+    display: block;
+    font-weight: normal;
+}
+
+
+#custom .step {
+    clear: left;
+    background: #fafafa;
+    padding: 30px;
+    margin: 0;
+    border: 0;
+}
+.step {
+    border-left: 1px solid #ddd;
+    padding: 20px 0 20px 31px;
+    margin: 0 0 10px 20px;
+}
+
+
+a.button-back, a.button-next {
+    text-decoration: none;
+    color: #fff;
+}
+.button-back, .button-next {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #83c99f;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.button-next {
+    float: right;
+}
+.step{
+	background:#f0f0f0;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+input[type="submit"].finish {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    margin-top: 20px;
+}
+
+
+#calendar .header{
+	background: #333b3f;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+#calendar .prev{
+	float: left;
+    margin-left: 20px;
+}
+
+#calendar .next{
+	float: right;
+    margin-right: 20px;
+}
+
